@@ -1,0 +1,33 @@
+{
+  "name": "dwv-react",
+  "version": "0.3.0-beta",
+  "description": "Medical viewer using DWV (DICOM Web Viewer) and React.",
+  "author": "ivmartel",
+  "license": "GPL-3.0",
+  "private": true,
+  "homepage": "/dwv-react/demo/trunk/",
+  "dependencies": {
+    "@material-ui/core": "^3.9.1",
+    "@material-ui/icons": "^3.0.2",
+    "dwv": "0.25.2",
+    "immutability-helper": "^3.0.0",
+    "react": "^16.7.0",
+    "react-dnd": "^7.4.5",
+    "react-dnd-html5-backend": "^7.4.4",
+    "react-dom": "^16.7.0",
+    "react-dropzone": "^10.1.4",
+    "react-dropzone-folder": "0.0.0-development",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
